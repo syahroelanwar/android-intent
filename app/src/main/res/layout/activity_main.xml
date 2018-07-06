@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Biodata"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/t_Nim"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="NIM" />
+
+        <EditText
+            android:id="@+id/t_Nama"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Nama" />
+
+        <RadioGroup
+            android:id="@+id/jk"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/lk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="20dp"
+                    android:text="Laki - laki"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <RadioButton
+                    android:id="@+id/pr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Perempuan"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/t_Almt"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Alamat" />
+
+        <EditText
+            android:id="@+id/t_Telp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="Telephone" />
+
+        <EditText
+            android:id="@+id/t_Email"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="E-mail" />
+
+        <Button
+            android:id="@+id/btn_Send"
+            android:text="Send Data"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+</LinearLayout>
